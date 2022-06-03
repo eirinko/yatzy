@@ -132,7 +132,7 @@ def lowstraight(gameDice):
 # High Straight
 def highstraight(gameDice):
     results=[]
-    #Sort the values of the dice. Compare two dice together from the top. If they are the same, remove them from gameDice and put them into results list. 
+    # Sort the values of the dice. Compare two dice together from the top. If they are the same, remove them from gameDice and put them into results list. 
     for i in range(3):
         values=rolldice(gameDice)
         sortedvalues=sorted(values)
