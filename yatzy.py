@@ -68,3 +68,4 @@ def yatzy():
 
 if __name__ == "__main__": #This will not be run if yatzygames gets imported to another file. 
     yatzy()
+    
